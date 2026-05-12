@@ -96,7 +96,7 @@ resource "aws_route_table_association" "public" {
 ##############################################################################
 resource "aws_security_group" "ec2" {
   name        = "${var.project_name}-sg"
-  description = "Security group for EC2 instance — SSH restricted to single IP"
+  description = "Security group for EC2 instance - SSH restricted to single IP"
   vpc_id      = aws_vpc.main.id
 
   # INBOUND — SSH access restricted to YOUR IP only
