@@ -1,0 +1,15 @@
+##############################################################################
+# terraform.tfvars.example
+# WHY THIS FILE EXISTS:
+#   Since terraform.tfvars is in .gitignore and never committed to GitHub,
+#   this example file shows anyone cloning your repo exactly what values
+#   they need to provide. Replace all placeholder values with your own.
+##############################################################################
+
+aws_region     = "us-east-1"
+instance_type  = "t2.micro"
+key_pair_name  = "YOUR-KEY-PAIR-NAME"
+your_ip_cidr   = "YOUR.IP.ADDRESS/32"
+vpc_cidr       = "10.0.0.0/16"
+subnet_cidr    = "10.0.1.0/24"
+project_name   = "terraform-aws-ec2-infra"
