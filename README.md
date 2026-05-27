@@ -78,7 +78,7 @@ Before using this project, ensure the following are installed and configured:
 
 > ⚠️ **Security Warning:** Never configure the AWS CLI with your root account
 > credentials. Always create an IAM user with least-privilege permissions
-> and use those credentials instead.
+> and use those credentials.
 
 ## Usage
 
